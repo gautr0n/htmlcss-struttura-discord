@@ -5,5 +5,36 @@
 }
 
 body{
-    background-color: red;
+    width: 1000px;
+    margin: 20px auto;
 }
+
+header{
+    background-color: aqua;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 200px;
+    min-height: 300px;
+}
+
+.nav-bar{
+    margin: 0px 10px;
+}
+
+#logo{
+    height: 70px;
+    width: auto;
+}
+
+
