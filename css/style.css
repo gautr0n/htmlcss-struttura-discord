@@ -49,9 +49,25 @@ header{
     height: 250px;
 }
 
+.last-paragraph{
+    padding: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-content: space-between;
+    background-color: red;
+    border: 2px solid black;
+    align-items: center;
+    min-width: 600px;
+}
+
 #logo{
     height: 70px;
     width: auto;
+}
+
+.last-paragraph> h3, button, img, p{
+    margin-bottom: 30px;
 }
 
 
