@@ -32,6 +32,23 @@ header{
     margin: 0px 10px;
 }
 
+.paragraph{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.description{
+    padding-left: 150px;
+}
+
+.p-img{
+    height: 250px;
+}
+
 #logo{
     height: 70px;
     width: auto;
