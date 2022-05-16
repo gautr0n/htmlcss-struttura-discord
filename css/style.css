@@ -13,13 +13,14 @@ header{
     background-color: aqua;
 }
 
-.row{
+.nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.column{
+
+.introduction{
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -62,11 +63,13 @@ header{
 }
 
 #logo{
-    height: 70px;
-    width: auto;
+    height: auto;
+    width: 100px;
 }
 
-.last-paragraph> h3, button, img, p{
+
+
+.last-paragraph :not(:first-child){
     margin-bottom: 30px;
 }
 
